@@ -2,6 +2,10 @@
 # include <stdlib.h>
 # include <time.h>
 
+/* negative positive generator 
+ * print 
+ */
+
 int main (void)
 {
 	int n;
