@@ -1,14 +1,22 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main (void)
+/*
+ * main - print letters
+ * return:to 0
+ */
+
+int main(void)
 {
-    char c;
-}
-for ( c = 'a'; c <= 'z'; c++ )
-for ( c = 'A'; c <= 'Z'; c++ )
-putchar (c);
-putchar ('\n');
+    char ch;
+
+for( ch = 'a'; ch <= 'z'; c++ )
+putchar(ch);
+
+for( ch = 'A'; ch <= 'Z'; c++ )
+putchar(ch);
+
+putchar('\n');
 
 return (0);
 }
