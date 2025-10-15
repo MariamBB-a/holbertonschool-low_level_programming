@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+/* main: print alphabit
+ *
+ * return: 0
+ */
 int main(void)
 {
 	char ch = 'a';
