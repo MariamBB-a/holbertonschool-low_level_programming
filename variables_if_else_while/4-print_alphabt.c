@@ -1,4 +1,5 @@
-#include <stud.io>
+#include <stdio.h>
+
 /*
  * main - prints the alphabet in lowercase except q and e
  *
