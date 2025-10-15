@@ -15,9 +15,10 @@ int main(void)
 			num++;
 	}
 	while (num < 16)
+	{
 		putchar((num - 10) + 'a');
 	num++;
-}
+	}
 
 putchar('\n');
 
