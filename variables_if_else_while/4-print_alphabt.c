@@ -1,9 +1,8 @@
 #include <stdio.h>
 
-/*
- * main - Prints the lowercase alphabet in order,
- *        except for the letters 'q' and 'e', followed by a new line
- *
+/**
+ * main - Prints the lowercase alphabet in order, except p an e
+ * Description: print letters
  * Return: Always 0 (Success)
  */
 int main(void)
