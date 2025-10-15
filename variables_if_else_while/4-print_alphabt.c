@@ -7,8 +7,8 @@ int main(void)
         while (ch <= 'z')
         {
                 if (char ! = 'q' && char ! = 'e')
-                        putchar (char);
-                char++;
+                        putchar (ch);
+                ch++;
         }
         putchar ('\n');
         return '0';
