@@ -1,3 +1,4 @@
+#include <stud.io>
 /*
  * main - prints the alphabet in lowercase except q and e
  *
@@ -17,4 +18,3 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
-
