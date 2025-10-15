@@ -10,16 +10,17 @@ int main(void)
 {
 	int num = 0;
 
-	while (num < 10);
+	while (num < 10)
 	{
-		putchar( num +'0')
+		putchar( num +'0');
 			num++;
 	}
-	while (num < '16')
+	while (num < 16)
 		putchar(( num - 10)+ 'a');
 	num++;
 }
+
 putchar('\n');
 
-returen (0);
+return (0);
 }
