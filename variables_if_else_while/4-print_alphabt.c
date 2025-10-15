@@ -1,9 +1,11 @@
 #include <stdio.h>
 
-/* main: print alphabit
+/*
+ * main - prints the alphabet in lowercase except q and e
  *
- * return: 0
+ * Return: Always 0 (Success)
  */
+
 int main(void)
 {
 	char ch = 'a';
@@ -16,5 +18,5 @@ int main(void)
 	}
 
 	putchar('\n');
-	return (0);
+	return 0;
 }
