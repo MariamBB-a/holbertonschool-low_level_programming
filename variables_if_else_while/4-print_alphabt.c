@@ -4,7 +4,7 @@
 int main(void)
 {
         char ch = 'a';
-        while (ch <= 'z)'
+        while (ch <= 'z')
         {
                 if (char ! = 'q' && char ! = 'e')
                         putchar (char);
