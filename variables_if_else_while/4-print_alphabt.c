@@ -3,8 +3,8 @@
 
 int main(void)
 {
-        char = 'a';
-        while <= 'z'
+        char ch = 'a';
+        while (ch <= 'z)'
         {
                 if (char ! = 'q' && char ! = 'e')
                         putchar (char);
