@@ -1,23 +1,20 @@
-#include <studio.h>
-#include <stdlib.h>
+#include <stdio.h>
 
 /*
- * main - prints all single digit numbers of base 10 starting from 0
+ * main - Prints all single digit numbers of base 10 starting from 0
  *
- * return: Always (success)
- *
+ * Return: Always 0 (Success)
  */
-
 int main(void)
-{ int num = 0;
+{
+	int num = 0;
 
-	while (num <10)
+	while (num < 10)
 	{
-		putchar (num + '0');
-
+		putchar(num + '0');
 		num++;
-
-		putchar ('/n')
-			
-			return (0);
 	}
+
+	putchar('\n');
+	return (0);
+}
