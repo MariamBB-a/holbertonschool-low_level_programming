@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - print alphabtics in reverse
- * description: alphabtics 
+ * description: alphabtics
  * return: always 0 (success)
  */
 int main(void)
@@ -15,6 +15,5 @@ int main(void)
 	}
 
 	putchar('\n');
-		
 	return (0);
 }
