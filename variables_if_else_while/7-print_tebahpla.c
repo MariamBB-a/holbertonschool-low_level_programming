@@ -4,7 +4,6 @@
  * description: alphabtics 
  * return: always 0 (success)
  */
-
 int main(void)
 {
 	char ch = 'z';
@@ -12,9 +11,10 @@ int main(void)
 	while (ch >= 'a')
 	{
 		putchar(ch);
-		ch --;
+		ch--;
 	}
-	putchar('\n)
+
+	putchar('\n');
 		
-		return (0);
+	return (0);
 }
