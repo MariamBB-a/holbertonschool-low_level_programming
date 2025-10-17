@@ -1,10 +1,7 @@
 #include "main.h"
+
 /**
- * _putchar - writes the character c to stdout
- * @c: The character to print
- *
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
+ * print_alphabet_x10 - prints 10 times the alphabet in lowercase
  */
 void print_alphabet_x10(void)
 {
@@ -22,6 +19,4 @@ void print_alphabet_x10(void)
         _putchar('\n');
         i++;
     }
-
-    return (0);
 }
