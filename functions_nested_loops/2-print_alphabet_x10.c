@@ -1,26 +1,23 @@
 #include "main.h"
 
 /**
- * _putchar - writes the character c to stdout
- * @c: The character to print
- *
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
+ * print_alphabet_x10 - make it 10 times
+ * Return: void
  */
+
 void print_alphabet_x10(void)
 {
     int i = 0;
-    char c;
+    char *alphabet = "abcdefghijklmnopqrstuvwxyz\n";
 
     while (i < 10)
     {
-        c = 'a';
-        while (c <= 'z')
+        int j = 0;
+        while (alphabet[j] != '\0')
         {
-            _putchar(c);
-            c++;
+            _putchar(alphabet[j]);
+            j++;
         }
-        _putchar('\n');
         i++;
     }
 }
