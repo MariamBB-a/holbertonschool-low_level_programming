@@ -7,7 +7,7 @@
  * Return: Result of a * b
  */
 
-void print_numbers(void);
+void print_numbers(void)
 {
 	int num;
 
