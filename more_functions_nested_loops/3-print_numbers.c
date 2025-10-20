@@ -1,12 +1,13 @@
 #include "main.h"
 
 /**
- * prints the numbers- from 0 to 9, followed by a new line.
- * description: use putchar twice.
+ * print_numbers - Prints the numbers from 0 to 9
  *
- * Return: Result of a * b
+ * Description: Prints each digit followed by a newline,
+ * using the _putchar function.
+ *
+ * Return: void
  */
-
 void print_numbers(void)
 {
 	int num;
@@ -15,5 +16,5 @@ void print_numbers(void)
 	{
 		_putchar(num + '0');
 	}
-	      _putchar('\n');
+	_putchar('\n');
 }
