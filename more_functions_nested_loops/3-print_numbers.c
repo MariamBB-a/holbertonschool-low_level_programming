@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * prints the numbers, from 0 to 9, followed by a new line.
- * @b: followed by a new line.
+ * prints the numbers- from 0 to 9, followed by a new line.
+ * description: use putchar twice.
  *
  * Return: Result of a * b
  */
