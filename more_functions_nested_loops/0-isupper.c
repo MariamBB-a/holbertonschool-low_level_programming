@@ -2,17 +2,15 @@
 #include <stdio.h>
 
 /**
- * main - check the code.
- *
- * Return: Always 0.
+ * Write a function that checks for uppercase character.
+ * @c: The character to print
+ * Return: 0 otherwise
  */
-int main(void)
+int _isdigit(int c)
 {
-    char c;
+    if (c >= 'A' && c <= 'Z')
 
-    c = 'A';
-    printf("%c: %d\n", c, _isupper(c));
-    c = 'a';
-    printf("%c: %d\n", c, _isupper(c));
+    return (1);
+    else
     return (0);
 }
