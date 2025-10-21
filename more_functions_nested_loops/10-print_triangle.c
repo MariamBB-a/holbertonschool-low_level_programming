@@ -1,7 +1,6 @@
 #include "main.h"
 
 /**
- *
  * print_triangle - Prints a right-aligned triangle
  * @size: The size of the triangle
  *
