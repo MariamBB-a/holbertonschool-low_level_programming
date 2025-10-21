@@ -18,12 +18,20 @@ void print_triangle(int size)
 	}
 	else
 	{
-		for (i = 1; i < size; i++)
+		for (i = 1; i <= size; i++)
 		{
-			for (j = 1; j < size; j++)
+			/* Print spaces */
+			for (j = 1; j <= size - i; j++)
+			{
+				_putchar(' ');
+			}
+
+			/* Print hashes */
+			for (j = 1; j <= i; j++)
 			{
 				_putchar('#');
 			}
+
 			_putchar('\n');
 		}
 	}
