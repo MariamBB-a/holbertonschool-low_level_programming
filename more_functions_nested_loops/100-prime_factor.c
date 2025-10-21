@@ -6,12 +6,12 @@
  */
 int main(void)
 {
-	long n = 612852475143
+	long n = 612852475143;
 	long factor = 2;
 
 	while (factor * factor <= n)
 	{
-		if  n % factor == 0)
+		if (n % factor == 0)
 		{
 			n /= factor;
 		}
