@@ -2,9 +2,11 @@
 
 /**
  *
- * main - rints a triangle, followed by a new line
- * description: only use _putchar function to print
- * return: print space or new line.
+ * print_triangle - Prints a triangle using '#' characters.
+ * @size: The size of the triangle.
+ *
+ * Description: Only uses _putchar. Prints a right-aligned triangle.
+ * If size is 0 or less, prints only a newline.
  */
 void print_triangle(int size)
 {
