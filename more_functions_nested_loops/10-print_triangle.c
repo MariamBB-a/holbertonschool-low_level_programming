@@ -2,10 +2,10 @@
 
 /**
  *
- * print_triangle - Prints a right-aligned triangle using '#' characters
+ * print_triangle - Prints a right-aligned triangle
  * @size: The size of the triangle
  *
- * Description: Uses _putchar to draw a triangle. If size is 0 or less,
+ * Description: Uses _putchar to draw a triangle.
  * it prints only a newline.
  */
 void print_triangle(int size)
