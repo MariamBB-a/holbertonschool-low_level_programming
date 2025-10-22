@@ -1,9 +1,8 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * main - peint entery point
- * print 98  The character to print
+ * print 98 
  *
  * return: always success
  */
