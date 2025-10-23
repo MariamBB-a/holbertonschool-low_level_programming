@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * _strlen - returns the length of a string
@@ -10,6 +11,5 @@
 
 void _puts(char *str)
 {
-	char str[] = "stdout";
-		printf( "%s", str);
+		printf( "%s\n", str);
 }
