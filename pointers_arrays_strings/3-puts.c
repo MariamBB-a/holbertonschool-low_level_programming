@@ -11,10 +11,7 @@
 void _puts(char *str)
 {
 
-    while (*str)
-    {
-        _putchar(*str);
-        str++;
-    }
-    _putchar('\n');
+    char str[] = "I do not fear computers. I fear the lack of them - Isaac Asimov";
+    printf( "%s/n", str)
+
 }
