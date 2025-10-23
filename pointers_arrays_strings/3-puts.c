@@ -1,18 +1,19 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * _strlen - returns the length of a string
- * @s: pointer to the string
+ * _puts - prints a string followed by a new line to stdout
+ * @str: pointer to the string to print
  *
- * Return: length of the string
- *
+ * Return: void
  */
-
 void _puts(char *str)
 {
+	int i = 0;
 
-    char str[] = "I do not fear computers. I fear the lack of them - Isaac Asimov";
-    printf( "%s/n", str );
-
+	while (str[i] != '\0')
+	{
+		_putchar(str[i]);
+		i++;
+	}
+	_putchar('\n');
 }
