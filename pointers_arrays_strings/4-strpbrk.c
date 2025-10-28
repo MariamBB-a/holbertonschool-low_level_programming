@@ -2,9 +2,9 @@
 #include <stddef.h>
 
 /*
- *main: find a character in two strings
- *s: is a string yout are looking through
- *accept: is another string you are looking through
+ *_strpbrk - searches a string for any of a set of bytes
+ * @s: the string to be searched
+ * @accept: the string containing the bytes to look for
  *results: if nothing (NULL)
  */
 char *_strpbrk(char *s, char *accept)
