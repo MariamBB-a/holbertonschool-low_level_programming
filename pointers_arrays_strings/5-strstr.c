@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stddef.h>
 
 /**
  * @5strstr.c - finding substring inside a string
@@ -10,29 +11,28 @@
  */
 char *_strstr(char *haystack, char *needle)
 {
-    char *h, *n;
+	char *h;
+	char *n;
 
-    if (*needle == '\0')
-        return (haystack); /* empty substring always matches at start */
+	if (*needle == '\0')
+		return (haystack);
 
-    while (*haystack)
-    {
-        h = haystack;
-        n = needle;
+	while (*haystack)
+	{
+		h = haystack;
+		n = needle;
 
-        /* Compare characters one by one */
-        while (*h && *n && (*h == *n))
-        {
-            h++;
-            n++;
-        }
+		while (*h && *n && (*h == *n))
+		{
+			h++;
+			n++;
+		}
 
-        /* If we reached the end of needle, substring found */
-        if (*n == '\0')
-            return (haystack);
+		if (*n == '\0')
+			return (haystack);
 
-        haystack++;
-    }
+		haystack++;
+	}
 
-    return (NULL);
+	return (NULL);
 }
