@@ -2,13 +2,12 @@
 #include <stddef.h>
 
 /**
- * File: 5-strstr.c
- * Description: Function that finds a substring within a string
- * needle: is the substring
- * haystack: is the string
+ * _strstr - locates a substring
+ * @haystack: the main string to search
+ * @needle: the substring to find
  *
- * result: return pointer to the begining of sunstring,or
- * null if not found.
+ * Return: a pointer to the beginning of the located substring,
+ * or NULL if the substring is not found
  */
 char *_strstr(char *haystack, char *needle)
 {
