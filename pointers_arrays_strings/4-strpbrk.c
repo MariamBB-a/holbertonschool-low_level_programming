@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stddef.h>
 
 /*
  *main: find a character in two strings
