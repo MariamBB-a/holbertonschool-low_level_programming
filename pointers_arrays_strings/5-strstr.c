@@ -2,7 +2,8 @@
 #include <stddef.h>
 
 /**
- * @5strstr.c - finding substring inside a string
+ * File: 5-strstr.c
+ * Description: Function that finds a substring within a string
  * needle: is the substring
  * haystack: is the string
  *
