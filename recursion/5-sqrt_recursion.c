@@ -8,20 +8,23 @@
  */
 int _sqrt_recursion(int n)
 {
+	int candidate;
+
 	if (n < 0)
 		return (-1);
 	if (n == 0 || n == 1)
 		return (n);
 
-	if (n < 4)
-		return (-1);
+	candidate = 1;
 
-	int candidate = _sqrt_recursion(n - 1);
-	if (candidate != -1)
-	{
-		if ((candidate + 1) * (candidate + 1) == n)
-			return (candidate + 1);
-	}
+	if (candidate * candidate > n)
+		return (-1);
+	if (candidate * candidate == n)
+		return (candidate);
+
+	candidate = _sqrt_recursion(n - 1);
+	if (candidate * candidate == n)
+		return (candidate);
 
 	return (-1);
 }
