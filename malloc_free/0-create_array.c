@@ -3,8 +3,9 @@
 #include <stdlib.h>
 
 /**
- * simple_print_buffer - prints buffer in hexa
- * @buffer: the address of memory to print
+ * create_array - Creates an array of chars and initializes it with a specific char
+ * Allocates memory for an array of chars of size @size,
+ * initializes each element with the character @c
  * @size:The size of the array to create
  * @c:The character to initialize the array with
  *
