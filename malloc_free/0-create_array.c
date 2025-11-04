@@ -5,9 +5,10 @@
 /**
  * simple_print_buffer - prints buffer in hexa
  * @buffer: the address of memory to print
- * @size: the size of the memory to print
+ * @size:The size of the array to create
+ * @c:The character to initialize the array with
  *
- * Return: Nothing.
+ * Return: Pointer to the created array, or NULL on failure
  */
 char *create_array(unsigned int size, char c)
 {
