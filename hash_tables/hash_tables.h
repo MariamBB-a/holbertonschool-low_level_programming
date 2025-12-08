@@ -5,6 +5,12 @@
 #include <stdlib.h>
 #include <string.h>
 
+/**
+ * struct hash_node_s - Node of a hash table
+ * @key: The key, string
+ * @value: The value associated with the key
+ * @next: Pointer to the next node in the list
+ */
 typedef struct hash_node_s
 {
     char *key;
@@ -12,6 +18,11 @@ typedef struct hash_node_s
     struct hash_node_s *next;
 } hash_node_t;
 
+/**
+ * struct hash_table_s - Hash table data structure
+ * @size: The size of the array
+ * @array: An array of linked list pointers
+ */
 typedef struct hash_table_s
 {
     unsigned long int size;
